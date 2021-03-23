@@ -1,0 +1,138 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(fonts/cinzel/CinzelDecorative-Black.otf);
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(fonts/comfortaa/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sharpe;
+    src: url(fonts/sharpe/SharpeMeIt_PERSONAL.ttf);
+}
+
+@font-face {
+    font-family: Staatliches;
+    src: url(fonts/staatliches/Staatliches-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url(fonts/cabin/Cabin-Regular.ttf);
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  font-family: Cabin;
+  background-image: url("concrete.jpg");
+  background-repeat: repeat;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: Sharpe;
+}
+
+center{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
+
+#container{
+    position: relative;
+    top: 100px;
+    width: 500px;
+    font-family: Cinzel;
+}
+
+#content-box{
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-family: Cabin;
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, .05);
+}
+
+#hero-image{
+  display: flex;
+  justify-content: center;
+}
+
+#hero-image img{
+  width: 470px;
+}
+
+ul{
+  position: relative;
+  margin-bottom: 10px;
+  list-style-type: none;
+  align-items: center;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  background: #FFF;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover{
+  background: #95afb4;
+}
+
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}

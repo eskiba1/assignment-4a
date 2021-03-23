@@ -28,8 +28,13 @@ body{
   display: flex;
   justify-content: center;
   font-family: Cabin;
-  background-image: url("concrete.jpg");
-  background-repeat: repeat;
+  background: repeating-linear-gradient(
+    45deg,
+    #fffce6,
+    #fffce6 10px,
+    #fff6e0 10px,
+    #fff6e0 20px
+    );
 }
 
 h1{
